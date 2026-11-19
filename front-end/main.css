@@ -3,18 +3,27 @@ display : flex ;
 justify-content : space-between ;
 align-items : center ;
 padding : 12px 16px ;
-background-color : #f4caff ;
+background-color : #E8EDF0 ;
 }
-
+.dashboard-grid {
+display : grid ;
+grid-template-columns : 2fr 1fr ;
+gap : 16px ;
+align-items : center ;
+}
+.image.first {
+    align-self : center ;
+    padding : 24px 24px ;
+}
 .content p {
     font-size : 16px ;
     font-family :Georgia, 'Times New Roman', Times, serif;
-    color : #ff9ffa ;
+    color : #3d6d8b ;
     wrap : normal ;
     text-align : justify ;
     max-width : 440px ;
     padding : 0px 24px ;
-    background-color : #8f8b8b ;
+    background-color : #b0fac8 ;
 border-radius : 8px ;
 border : 2px solid #9fdcff ;
 }
